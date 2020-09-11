@@ -1,17 +1,19 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NeedForJS</title>
     <link rel="stylesheet" href="./style.css">
+    <script src="./main.js" defer></script>
 </head>
 <body>
     <div class="score"></div>
+    <div id="topScore"></div>
     <div class="game">
-        <div class="start">Start Game!</div>
+            <div class="start">
+                <button class="btn" id="easy">easy</button>
+                <button class="btn" id="medium">medium</button>
+                <button class="btn" id="hard">hard</button>
+            </div>
         <div class="gameArea"></div>
     </div>
-
-    <script src="./main.js"></script>
 </body>
 </html>
